@@ -5,10 +5,10 @@ php course assignments inspired by https://github.com/aqib1
 # Assignment 1 : ( Till Monday )
 Please make a simple calculator using arthmetic operation such as +,-,/,*
 Your calcultor should have these functions 
- ### - add($value1, $value2) this function should return addition.
- ### - sub($value1, $value2) this function should return substraction.
- ### - mul($value1, $value2) this function should return multiplication.
- ### - devide($value1, $value) this function should retun devide.
+  - add($value1, $value2) this function should return addition.
+  - sub($value1, $value2) this function should return substraction.
+  - mul($value1, $value2) this function should return multiplication.
+  - devide($value1, $value) this function should retun devide.
 
 Your function should exists in a sepreate php file and your main functionaity (calling of those methods for calculator) should exists
 in a different file.
