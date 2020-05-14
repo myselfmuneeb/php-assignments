@@ -25,4 +25,13 @@ determine that student pass it or not
   - if percentage is less than 80 and greater than 70 then grade is B
   - if percentage is less than or equals 100 and greater than 80 then A 
 
+# Assignment 2 : ( Till saturday )
+
+create an array in php, like 
+
+$array = [1, 2, 4, 5, 6, 6] = 6
+
+or 
+
+[4, 1, 33, 4, 6, 7] = 33 
  
