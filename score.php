@@ -5,9 +5,7 @@
 	$score_per = $score /$total_score * 100;
 
 	switch ($score_per) {
-		case $score>$total_score:
-			echo "Total marks are " . $total_score . " so score should be less than total marks!";
-			break;
+		
 		case $score_per<'50%':
 			echo "You are fail because you got less then 50%. Grade: F";
 			break;
@@ -25,7 +23,8 @@
 			break;
 		case $score_per<='100%':
 			echo "You are pass. Grade: A+";
-			break;				
+			break;	
+			default: echo "Total marks are " . $total_score . " so score should be less than total marks!";			
 	
 	}		
 	
