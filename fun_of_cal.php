@@ -1,21 +1,17 @@
 <?php
 
 function add($num1 , $num2){
-		$result= $num1 + $num2;
-		echo "Here is the Answer of add: " . $result;
+		return $num1 + $num2;
 	}
 
 function sub($num1 , $num2){
-		$result= $num1 - $num2;
-		echo "Here is the Answer of Subtract: " . $result;
+		return $num1 - $num2;
 	}
 
 function multi($num1 , $num2){
-		$result= $num1 * $num2;
-		echo "Here is the Answer of Multiply: " . $result;
+		return $num1 * $num2;
 	}
 
 function div($num1 , $num2){
-		$result= $num1 / $num2;
-		echo "Here is the Answer of Divide: " . $result;
+		return $num1 / $num2;
 	}		
