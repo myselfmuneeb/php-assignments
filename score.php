@@ -1,7 +1,7 @@
 <?php
 
 	$total_score = 100;
-	$score = 85;
+	$score = 66;
 	$score_per = $score /$total_score * 100;
 
 	switch ($score_per) {
@@ -24,7 +24,7 @@
 		case $score_per<='100%':
 			echo "You are pass. Grade: A+";
 			break;	
-			default: echo "Total marks are " . $total_score . " so score should be less than total marks!";			
+			default: echo "Given score $score is invalid";			
 	
 	}		
 	
