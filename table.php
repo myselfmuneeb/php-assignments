@@ -1,9 +1,9 @@
 <?php
 
 echo "FOR LOOP: <br>";
+
 $table = 2;
-$num = 1;
-for ($table; $num <= 10 ; $num++) { 
+for ($num = 1; $num <= 10 ; $num++) { 
 	echo $table . " X " . $num . " = " . $table*$num . "<br>" ;
 }
 
