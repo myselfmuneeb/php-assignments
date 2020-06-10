@@ -8,14 +8,6 @@ $laptop = array(
 
 );
 
-foreach ($laptop as $keys => $value) {
-	echo "<br>";
-	foreach ($value as $key => $values) {
-		echo $keys . " " . $key . " " . $values;
-	}
-	echo "<br>";
-}
-
-//echo $laptop[1][0];
+echo $laptop[1][0];
 
 ?>
